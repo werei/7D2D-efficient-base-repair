@@ -168,6 +168,8 @@ public class TileEntityEfficientBaseRepair : TileEntitySecureLootContainer // TO
 			|| block.Block.shape.IsTerrain()
 			|| block.Block.IsPlant()
 			|| block.Block.IsTerrainDecoration
+			|| block.Block.IsBatteryBank
+			|| block.Block.IsSolarBank
 		);
 	}
 
